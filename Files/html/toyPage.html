@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toy Display Page</title>
+
+  <!-- Link to other files -->
+  <script src="../js/navbar.js"></script>
+  <link rel="stylesheet" href="../css/toyPage.css">
+  <script src="../js/selectedToy.js"></script>
+  <script src="../js/toyClass.js" defer></script>
+
+</head>
+
+<body>
+
+    <!-- Page Header -->
+    <h1>Mary's Toy Catalog</h1>
+
+    <!-- The toys and their containers -->
+    <div class="grid-container">
+        <div class="main">
+            <div class="mainRowContainer">
+                <div class="toyContainer" dataIndex ="0">
+                    <div class="toyImage"><img src="../media/ToyImages/Toy0_Wood_Snake.png" alt="Toy Image"></div>
+                    <div class="toyName"><a id='click' onclick="newPage(toy0)">Toy Name</a></div>
+                    <div class="toyPrice">Toy Price</div>
+                    <div class="toyButton">
+                        <button>Add to Cart</button>    
+                    </div>
+                </div>
+                <div class="toyContainer" dataIndex ="1">
+                    <div class="toyImage"><img src="../media/ToyImages/Toy1_Wool_Doll_Cat.jpg" alt="Toy Image"></div>
+                    <div class="toyName"><a id='click' onclick="newPage(toy1)">Toy Name</a></div>
+                    <div class="toyPrice">Toy Price</div>
+                    <div class="toyButton">
+                        <button>Add to Cart</button>    
+                    </div>
+                </div>
+                <div class="toyContainer" dataIndex ="2">
+                    <div class="toyImage" ><img src="../media/ToyImages/Toy2_Wool_Doll_Dog.jpg" alt="Toy Image"></div>
+                    <div class="toyName"><a id='click' onclick="newPage(toy2)">Toy Name</a></div>
+                    <div class="toyPrice">Toy Price</div>
+                    <div class="toyButton">
+                        <button>Add to Cart</button>    
+                    </div>
+                </div>
+                <div class="toyContainer" dataIndex ="3">
+                    <div class="toyImage"><img src="../media/ToyImages/Toy3_Wool_Doll_Elephant.jpg" alt="Toy Image"></div>
+                    <div class="toyName"><a id='click' onclick="newPage(toy3)">Toy Name</a></div>
+                    <div class="toyPrice">Toy Price</div>
+                    <div class="toyButton">
+                        <button>Add to Cart</button>    
+                    </div>
+                </div>
+                <div class="toyContainer" dataIndex ="4">
+                    <div class="toyImage"><img src="../media/ToyImages/Toy4_Wool_Doll_PersonA.jpg" alt="Toy Image"></div>
+                    <div class="toyName"><a id='click' onclick="newPage(toy4)">Toy Name</a></div>
+                    <div class="toyPrice">Toy Price</div>
+                    <div class="toyButton">
+                        <button>Add to Cart</button>    
+                    </div>
+                </div>
+            </div>
+
+            <!-- Row 2 of toys -->
+            <div class="mainRowContainer">
+                <div class="toyContainer" dataIndex ="5">
+                    <div class="toyImage"><img src="../media/ToyImages/Toy5_Wool_Doll_PersonB.jpg" alt="Toy Image"></div>
+                    <div class="toyName"><a id='click' onclick="newPage(toy5)">Toy Name</a></div>
+                    <div class="toyPrice">Toy Price</div>
+                    <div class="toyButton">
+                        <button>Add to Cart</button>    
+                    </div>
+                </div>
+                <div class="toyContainer" dataIndex ="6">
+                    <div class="toyImage"><img src="../media/ToyImages/Toy6_Wood_Car_EverydayB.png" alt="Toy Image"></div>
+                    <div class="toyName"><a id='click' onclick="newPage(toy6)">Toy Name</a></div>
+                    <div class="toyPrice">Toy Price</div>
+                    <div class="toyButton">
+                        <button>Add to Cart</button>    
+                    </div>
+                </div>
+                <div class="toyContainer" dataIndex ="7">
+                    <div class="toyImage"><img src="../media/ToyImages/Toy7_Wood_Car_EverydayA.png" alt="Toy Image"></div>
+                    <div class="toyName"><a id='click' onclick="newPage(toy7)">Toy Name</a></div>
+                    <div class="toyPrice">Toy Price</div>
+                    <div class="toyButton">
+                        <button>Add to Cart</button>    
+                    </div>
+                </div>
+                <div class="toyContainer" dataIndex ="8">
+                    <div class="toyImage"><img src="../media/ToyImages/Toy8_Wood_Piano.png" alt="Toy Image"></div>
+                    <div class="toyName"><a id='click' onclick="newPage(toy8)">Toy Name</a></div>
+                    <div class="toyPrice">Toy Price</div>
+                    <div class="toyButton">
+                        <button>Add to Cart</button>    
+                    </div>
+                </div>
+                <div class="toyContainer" dataIndex ="9">
+                    <div class="toyImage"><img src="../media/ToyImages/Toy9_Wood_Blocks_House.png" alt="Toy Image"></div>
+                    <div class="toyName"><a id='click' onclick="newPage(toy9)">Toy Name</a></div>
+                    <div class="toyPrice">Toy Price</div>
+                    <div class="toyButton">
+                        <button>Add to Cart</button>    
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Row 3 of toys -->
+            <div class="mainRowContainer">
+                <div class="toyContainer" dataIndex ="10">
+                    <div class="toyImage"><img src="../media/ToyImages/Toy10_Wood_Teether_Rabbit.JPG" alt="Toy Image"></div>
+                    <div class="toyName"><a id='click' onclick="newPage(toy10)">Toy Name</a></div>
+                    <div class="toyPrice">Toy Price</div>
+                    <div class="toyButton">
+                        <button>Add to Cart</button>    
+                    </div>
+                </div>
+                <div class="toyContainer" dataIndex ="11">
+                    <div class="toyImage"><img src="../media/ToyImages/Toy11_Wool_Plushie_Cat.jpg" alt="Toy Image"></div>
+                    <div class="toyName"><a id='click' onclick="newPage(toy11)">Toy Name</a></div>
+                    <div class="toyPrice">Toy Price</div>
+                    <div class="toyButton">
+                        <button>Add to Cart</button>    
+                    </div>
+                </div>
+                <div class="toyContainer" dataIndex ="12">
+                    <div class="toyImage"><img src="../media/ToyImages/Toy12_Wool_Plushie_Dog.jpg" alt="Toy Image"></div>
+                    <div class="toyName"><a id='click' onclick="newPage(toy12)">Toy Name</a></div>
+                    <div class="toyPrice">Toy Price</div>
+                    <div class="toyButton">
+                        <button>Add to Cart</button>    
+                    </div>
+                </div>
+                <div class="toyContainer" dataIndex ="13">
+                    <div class="toyImage"><img src="../media/ToyImages/Toy13_Wool_Plushie_Bird.jpg" alt="Toy Image"></div>
+                    <div class="toyName"><a id='click' onclick="newPage(toy13)">Toy Name</a></div>
+                    <div class="toyPrice">Toy Price</div>
+                    <div class="toyButton">
+                        <button>Add to Cart</button>    
+                    </div>
+                </div>
+                <div class="toyContainer" dataIndex ="14">
+                    <div class="toyImage"><img src="../media/ToyImages/Toy14_Wool_Plushie_Panda.jpg" alt="Toy Image"></div>
+                    <div class="toyName"><a id='click' onclick="newPage(toy14)">Toy Name</a></div>
+                    <div class="toyPrice">Toy Price</div>
+                    <div class="toyButton">
+                        <button>Add to Cart</button>    
+                    </div>
+                </div>
+            </div>
+
+            <!-- Row 4 of the toys -->
+            <div class="mainRowContainer">
+                <div class="toyContainer" dataIndex ="15">
+                    <div class="toyImage">
+                        <img src="../media/ToyImages/Toy15_Wool_Plushie_Octopus.jpg" alt="Toy Image">
+                    </div>
+                    <div class="toyName"><a id='click' onclick="newPage(toy15)">Toy Name</a></div>
+                    <div class="toyPrice">Toy Price</div>
+                    <div class="toyButton">
+                        <button>Add to Cart</button>    
+                    </div>
+                </div>
+                <div class="toyContainer" dataIndex ="16">
+                    <div class="toyImage"><img src="../media/ToyImages/Toy16_Wool_Plushie_Rabbit.jpg" alt="Toy Image"></div>
+                    <div class="toyName"><a id='click' onclick="newPage(toy16)">Toy Name</a></div>
+                    <div class="toyPrice">Toy Price</div>
+                    <div class="toyButton">
+                        <button>Add to Cart</button>    
+                    </div>
+                </div>
+                <div class="toyContainer" dataIndex ="17">
+                    <div class="toyImage"><img src="../media/ToyImages/Toy17_Wood_ShoppingCart.jpg" alt="Toy Image"></div>
+                    <div class="toyName"><a id='click' onclick="newPage(toy17)">Toy Name</a></div>
+                    <div class="toyPrice">Toy Price</div>
+                    <div class="toyButton">
+                        <button>Add to Cart</button>    
+                    </div>
+                </div>
+                <div class="toyContainer" dataIndex ="18">
+                    <div class="toyImage"><img src="../media/ToyImages/Toy18_Wood_PuzzleCube.jpg" alt="Toy Image"></div>
+                    <div class="toyName"><a id='click' onclick="newPage(toy18)">Toy Name</a></div>
+                    <div class="toyPrice">Toy Price</div>
+                    <div class="toyButton">
+                        <button>Add to Cart</button>    
+                    </div>
+                </div>
+                <div class="toyContainer" dataIndex ="19">
+                    <div class="toyImage"><img src="../media/ToyImages/Toy19_Wood_Chess.jpg" alt="Toy Image"></div>
+                    <div class="toyName"><a id='click' onclick="newPage(toy19)">Toy Name</a></div>
+                    <div class="toyPrice">Toy Price</div>
+                    <div class="toyButton">
+                        <button>Add to Cart</button>    
+                    </div>
+                    <script src="../js/toyClass.js" defer></script>
+                </div>
+            </div>
+        </div>  
+    </div> 
+
+</body>
+</html>
